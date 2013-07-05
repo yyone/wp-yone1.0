@@ -32,6 +32,10 @@
 	vertical-align:middle;
 }
 
+#header .bread_crump div {
+	display:inline-block;
+}
+
 #header .bread_crump a {
 	color:#FFF;
 	text-decoration:none;

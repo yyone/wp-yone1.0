@@ -10,6 +10,7 @@
 <meta name="format-detection" content="telephone=no" />
 -->
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" />
+<link rel="author" href="https://www.facebook.com/yone.yoshio" />
 
 <!--[if lt IE 9]>
   <meta http-equiv="Imagetoolbar" content="no" />

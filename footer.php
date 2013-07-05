@@ -25,7 +25,7 @@
 
       <div class="ontheweb2">
         <p><div class="github"></div><a href="https://github.com/yyone" target="_blank"><span class="name">GitHub学習中</span></a></p>
-        <p><div class="gplus"></div><a href="https://plus.google.com/u/0/106722537265912872664/" target="_blank"><span class="name">ほぼ未使用なGoogle+</span></a></p>
+        <p><div class="gplus"></div><a href="https://plus.google.com/106722537265912872664/" rel="publisher" target="_blank"><span class="name">ほぼ未使用なGoogle+</span></a></p>
       </div><!-- /ontheweb2 -->
 
       <div class="link">
