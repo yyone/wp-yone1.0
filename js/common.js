@@ -34,6 +34,9 @@ function category_icon_hover_event(e) {
 	} else if (target.nodeName == "SPAN") {
 		var div_node = target.parentNode.getElementsByTagName('div')[0];
 		var parent_li = target.parentNode.parentNode;
+	} else if (target.nodeName == "H2") {
+		var div_node = target.parentNode.parentNode.getElementsByTagName('div')[0];
+		var parent_li = target.parentNode.parentNode.parentNode;
 	} else {
 		return false;
 	}

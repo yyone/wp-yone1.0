@@ -50,11 +50,16 @@
 #right .widget-title {
 	position:relative;
 	top:-53px;
-	left:-5px;
+	left:0px;
 	font-size:16px;
 	color:#FFF;
 	font-weight:bold;
 	text-shadow:0px 0px 40px white; /* CSS3 */
+}
+
+#right .widget-title h4 {
+	display:inline-block;
+	font-size:16px;
 }
 
 #right .widget-content {

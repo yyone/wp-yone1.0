@@ -60,7 +60,7 @@ endif;
 
 	<!------------ header -------------->
 	<header id="header">
-		<a href="<?php echo home_url('/'); ?>"><img class="logo" src="<?php bloginfo('template_url'); ?>/img/site_title.png" width="314" height="93" alt="yone3.net"></a>
+		<a href="<?php echo home_url('/'); ?>"><?php if(is_front_page()): ?><h1><?php endif; ?><img class="logo" src="<?php bloginfo('template_url'); ?>/img/site_title.png" width="314" height="93" alt="yone3.net"><?php if(is_front_page()): ?></h1><?php endif; ?></a>
 		<div class="description"><?php bloginfo('description'); ?></div>
 
 		<div class="bread_crump">

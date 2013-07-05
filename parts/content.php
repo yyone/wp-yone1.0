@@ -1,6 +1,6 @@
 				<article <?php post_class(); ?>>
 					<div class="box">
-						<h2 class="title">
+						<div class="title">
 							<?php
 								$cat_array = get_leftbar_category(); $flg;
 	
@@ -17,8 +17,8 @@
 							?>
 								<div class="title_life"></div>
 							<?php endif; ?>
-							<span class="text"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
-						</h2>
+							<span class="text"><a href="<?php the_permalink(); ?>"><h1><?php the_title(); ?></h1></a></span>
+						</div>
 	
 						<time datetime="<?php the_time('Y/m/d'); ?>" class="time">
 							posted on <?php the_time('Y/m/d'); ?>

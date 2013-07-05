@@ -10,6 +10,7 @@
 	margin-bottom:20px;
 	border-radius:10px; /* CSS3 */
 	box-shadow:2px 2px 2px #000; /* CSS3 */
+	-webkit-box-shadow:2px 2px 2px #000; /* CSS3 */
 }
 
 #central .content_box a,
@@ -41,22 +42,39 @@
 	margin:2px 0px 10px 2px;
 }
 
-#central .content_box h2.title {
-	line-height:200%;
+#central .content_box .header-box {
+	background: -moz-linear-gradient(270deg, #4189C2 0%, #659fcd 100%); /* CSS3 */
+	background: -webkit-linear-gradient(270deg, #4189C2 0%, #659fcd 100%); /* CSS3 */
+	margin:3px 3px 20px 3px;
+	padding:12px 35px 10px 35px;
+	border-radius:5px; /* CSS3 */
+	box-shadow:0px 0px 5px #000; /* CSS3 */
+	-webkit-box-shadow:0px 0px 5px #000; /* CSS3 */
+	color:#FFF;
 }
 
-#central .content_box h2.title a {
+#central .content_box .archive-header span {
+	font-size:26px;
+}
+
+#central .content_box .archive-header h1 {
+	display:inline-block;
+	font-size:26px;
+	font-weight:100;
+}
+
+#central .content_box .title a {
 	position:relative;
 	top:5px;
 	color:#000;
 	text-decoration:none;
 }
 
-#central .content_box h2.title a:hover {
+#central .content_box .title a:hover {
 	color:#4189C2;
 }
 
-#central .content_box h2.title div {
+#central .content_box .title div {
 	display:inline-block;
 	position:relative;
 	top:20px;
@@ -68,16 +86,34 @@
 	-webkit-background-size:550px 100px;	
 }
 
-#central .content_box h2.title .title_it          {background-position: -50px 0px;}
-#central .content_box h2.title .title_programming {background-position:-450px 0px;}
-#central .content_box h2.title .title_web_design  {background-position:-100px 0px;}
-#central .content_box h2.title .title_apple       {background-position:-150px 0px;}
-#central .content_box h2.title .title_marketing   {background-position:-350px 0px;}
-#central .content_box h2.title .title_bicycle     {background-position:-400px 0px;}
-#central .content_box h2.title .title_movie       {background-position:-300px 0px;}
-#central .content_box h2.title .title_book        {background-position:-250px 0px;}
-#central .content_box h2.title .title_photo       {background-position:-200px 0px;}
-#central .content_box h2.title .title_life        {background-position:-500px 0px;}
+#central .content_box .title .title_it          {background-position: -50px 0px;}
+#central .content_box .title .title_programming {background-position:-450px 0px;}
+#central .content_box .title .title_web_design  {background-position:-100px 0px;}
+#central .content_box .title .title_apple       {background-position:-150px 0px;}
+#central .content_box .title .title_marketing   {background-position:-350px 0px;}
+#central .content_box .title .title_bicycle     {background-position:-400px 0px;}
+#central .content_box .title .title_movie       {background-position:-300px 0px;}
+#central .content_box .title .title_book        {background-position:-250px 0px;}
+#central .content_box .title .title_photo       {background-position:-200px 0px;}
+#central .content_box .title .title_life        {background-position:-500px 0px;}
+
+#central .content_box .title h1 {
+	display:inline;
+	font-size:28px;
+	line-height:200%;
+}
+
+#central .content_box .title h2 {
+	display:inline;
+	font-size:28px;
+	line-height:200%;
+}
+
+#central .content_box .title h3 {
+	display:inline;
+	font-size:28px;
+	line-height:200%;
+}
 
 #central .content_box time {
 	margin-top:10px;

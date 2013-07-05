@@ -12,7 +12,8 @@ header, hgroup, section, article, aside, footer, figure, figcaption, nav {
 body {
 	background-color:#4189C2;
 	line-height:1.5;
-	font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', Arial, sans-serif;
+/*	font-family:'ヒラギノ丸ゴ ProN W4','HiraMaruProN-W4','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Meiryo UI','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック',Arial,sans-serif; */
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Meiryo UI','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック',Arial,sans-serif;
 	font-size:14px;
 	font-weight:normal;
 	font-style:normal;

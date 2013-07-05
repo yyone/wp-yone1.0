@@ -5,7 +5,7 @@
     <div class="footer_content">
 
       <div class="aboutme">
-        <p class="title">About Me</p>
+        <p class="title"><h5>About Me</h5></p>
         <p class="text">Webデザイナー＆プログラマー＆ディレクター＆マーケッター。
         デザイン〜コーディング〜サイト制作〜プロモーション〜SEO対応〜アクセス解析まで、一通りこなします。
         個人的なお仕事請け負ってます。お気軽にご相談を。</p>
@@ -15,7 +15,7 @@
       </div><!-- /aboutme -->
       
       <div class="ontheweb1">
-        <p class="title">On The Web</p>
+        <p class="title"><h5>On The Web</h5></p>
         <p><div class="twitter"></div><a href="https://twitter.com/y_yone" target="_blank"><span class="name">Followする</span></a></p>
         <p><div class="facebook"></div><a href="https://www.facebook.com/yone.yoshio" target="_blank"><span class="name">Timelineを覗いてみる</span></a></p>
         <p><div class="linkedin"></div><a href="http://www.linkedin.com/profile/view?id=99148272" target="_blank"><span class="name">職歴を見る</span></a></p>

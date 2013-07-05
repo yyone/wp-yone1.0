@@ -15,7 +15,7 @@
 										<?php else: ?>
 								<li class="menu_icon" id="menu_<?php echo $cate[$i][1]; ?>"><a href="/category/<?php echo $cate[$i][1]; ?>">
 										<?php endif; ?>
-								<div class="menu_<?php echo $cate[$i][1]; ?>"></div><span class="name"><?php echo $cate[$i][2]; ?></span></a>
+								<div class="menu_<?php echo $cate[$i][1]; ?>"></div><span class="name"><?php if(is_front_page()): ?><h2><?php endif; ?><?php echo $cate[$i][2]; ?><?php if(is_front_page()): ?></h2><?php endif; ?></span></a>
 										<?php
 										$flg = 0;
 										$hit_array = array();

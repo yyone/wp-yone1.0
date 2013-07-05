@@ -70,8 +70,8 @@ register_sidebar(array(
 						'		</div><!-- /box_background_content -->'."\n".
 						'	<div class="box_background_bottom"></div>'."\n".
 						'</div><!-- /right_box -->'."\n",
-	'before_title' => '		<div class="widget-title">',
-	'after_title' => '</div><!-- /widget-title -->'."\n".'		<div class="widget-content">'."\n",
+	'before_title' => '		<div class="widget-title"><h4>',
+	'after_title' => '</h4></div><!-- /widget-title -->'."\n".'		<div class="widget-content">'."\n",
 ));
 
 
