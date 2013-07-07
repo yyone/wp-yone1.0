@@ -18,7 +18,7 @@
 								<div class="title_life"></div>
 							<?php endif; ?>
 							<span class="text"><a href="<?php the_permalink(); ?>">
-							<?php if(is_front_page()): ?><h3><?php elseif(is_archive()): ?><h2><?php endif; ?><?php the_title(); ?><?php if(is_front_page()): ?></h3><?php elseif(is_archive()): ?></h2><?php endif; ?></a></span>
+							<?php if(is_front_page()): ?><h3><?php elseif(is_archive() || is_search()): ?><h2><?php endif; ?><?php the_title(); ?><?php if(is_front_page()): ?></h3><?php elseif(is_archive() || is_search()): ?></h2><?php endif; ?></a></span>
 						</div>
 	
 						<time datetime="<?php the_time('Y/m/d'); ?>" class="time">

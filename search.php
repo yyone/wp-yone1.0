@@ -15,6 +15,13 @@
 			query_posts($query_param);
 			print_r($wp_query);
 */
+			?>
+			<header class="header-box">
+				<div class="archive-header">
+					<span>「</span><h1><?php the_search_query(); ?></h1><span>」の検索結果</span>
+				</div>
+			</header>
+			<?php
 			if(have_posts()) :
 				while(have_posts()) :
 					the_post();

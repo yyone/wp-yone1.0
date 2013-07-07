@@ -5,12 +5,9 @@
 <meta http-equiv="Content-Type" content="text/html">
 <meta name="author" content="Yoshio Yonezawa">
 <meta name="copyright" content="yone3.net">
-<!--
-<meta name="viewport" content="width=device-width" />
-<meta name="format-detection" content="telephone=no" />
--->
+
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico" />
-<link rel="author" href="https://www.facebook.com/yone.yoshio" />
+<link rel="author" href="https://plus.google.com/106722537265912872664/" />
 
 <!--[if lt IE 9]>
   <meta http-equiv="Imagetoolbar" content="no" />
@@ -26,21 +23,34 @@ endif;
 
 <title><?php
 	global $page, $paged;
-	if(is_search()) :
-		wp_title('', true, 'left');
-		echo ' | ';
-	else :
-		wp_title('|', true, 'right');
-	endif;
-	bloginfo('name');
 	if(is_front_page()) :
+		bloginfo('name');
 		echo ' | ';
 		bloginfo('description');
+	elseif(is_single()): the_title();
+	elseif(is_category()): single_cat_title();
+	elseif(is_tag()): single_tag_title();
+	elseif(is_date()):
+		$year = get_query_var('year');
+		$monthnum = get_query_var('monthnum');
+		$title = $year . "年";
+		if(!empty($monthnum)) $title .= $monthnum . "月";
+		echo $title;
+	elseif(is_search()):
+		$title = "「" . get_search_query() . "」の検索結果";
+		echo $title;
+	else: the_title();
 	endif;
+	if(!is_front_page()) :
+		echo ' | ';
+		bloginfo('name');
+	endif;
+
 	if($paged >= 2 || $page >= 2) :
 		echo ' | ' . sprintf('%sページ', max($paged, $page));
 	endif;
 ?></title>
+<meta name="description" content="<?php bloginfo('description'); ?>" />
 <?php wp_head(); ?>
 </head>
 

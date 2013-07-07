@@ -29,7 +29,7 @@
       </div><!-- /ontheweb2 -->
 
       <div class="link">
-        <p class="title">Link</p>
+        <p class="title"><h5>Link</h5></p>
         <p><a href="<?php echo home_url('/'); ?>sitemap/">サイトマップ</a></p>
       </div><!-- /link -->
 
